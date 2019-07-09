@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#main{width:600px;height:300px;border:solid 1px;background:green;position:relative}
+#ball1{width:50px;
+			height:50px;
+		background:white;-webkit-border-radius:50px;
+		position:absolute;top:250px;left:275px;
+		-webkit-animation: ball1 2s linear forwards;
+		
+		
+	  }
+
+@-webkit-keyframes ball1
+{
+from{top:250px;left:275px}
+to{top:135px;left:275px}
+
+}
+
+
+#ball2{width:50px;height:50px;background:black;-webkit-border-radius:50px;position:absolute;top:50px;left:275px;
+-webkit-animation: ball2 1s linear forwards;
+		-webkit-animation-delay:2s;
+}
+
+@-webkit-keyframes ball2
+{
+from{top:50px;left:275px}
+to{width:25px;height:25px;top:0px;left:285px}
+
+}
+
+#ball3{width:50px;height:50px;background:yellow;-webkit-border-radius:50px;position:absolute;top:93px;left:250px;
+-webkit-animation: ball3 1s linear forwards;
+		-webkit-animation-delay:2s;}
+		
+		@-webkit-keyframes ball3
+{
+from{top:93px;left:250px}
+to{width:25px;height:25px;top:0px;left:0px}
+
+}
+
+#ball4{width:50px;height:50px;background:red;-webkit-border-radius:50px;position:absolute;top:93px;left:300px;
+-webkit-animation: ball4 1s linear forwards;
+		-webkit-animation-delay:2s;}
+		
+		@-webkit-keyframes ball4
+{
+from{top:93px;left:300px}
+to{width:25px;height:25px;top:0px;left:575px}
+
+}
+
+#h1{width:25px;height:25px;background:black;-webkit-border-radius:50px;position:absolute;top:0px;left:0px;}
+#h2{width:25px;height:25px;background:black;-webkit-border-radius:50px;position:absolute;top:0px;left:285px;}
+#h3{width:25px;height:25px;background:black;-webkit-border-radius:50px;position:absolute;top:0px;left:575px;}
+</style>
+</head>
+<body>
+<div id="main">
+<div id="ball1"></div>
+<div id="ball2"></div>
+<div id="ball3"></div>
+<div id="ball4"></div>
+<div id="h1"></div>
+<div id="h2"></div>
+<div id="h3"></div>
+</div>
+</body>
+</html>
